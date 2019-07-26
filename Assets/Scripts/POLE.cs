@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class POLE : MonoBehaviour
 {
-   
-    void Start()
-    {
-        
-    }
 
-    
+    void Start(){}
+
     void Update()
     {
-        
-            transform.position += Vector3.left * Time.deltaTime;
-        
-        
+        transform.position += Vector3.left * Time.deltaTime;
     }
 }

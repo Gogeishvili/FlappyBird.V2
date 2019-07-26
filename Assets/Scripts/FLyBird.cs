@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class FLyBird : MonoBehaviour
 {
+    private Rigidbody2D _rgb;
     public GameManager gameManager;
-    public float Velocity = 2;//დასარეგულირებელია
-    private Rigidbody2D RG;
+
+    private float _velocity = 2;
+   
     void Start()
     {
-        RG = GetComponent<Rigidbody2D>();
+        _rgb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            RG.velocity = Vector2.up * Velocity;
+            _rgb.velocity = Vector2.up * _velocity;
         }
     }
     private void OnCollisionEnter2D(Collision2D coll)
