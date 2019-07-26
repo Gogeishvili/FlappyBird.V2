@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\CreateRandomPole.cs" />
      <Compile Include="Assets\FLyBird.cs" />
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\POLE.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Giorgi/Desktop/FlappyBird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
