@@ -12,15 +12,30 @@ public class FLyBird : MonoBehaviour
     void Start()
     {
         _rgb = GetComponent<Rigidbody2D>();
+        _rgb.simulated = false;
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        var answer = StartGame();
+
+        if (answer)
         {
             _rgb.velocity = Vector2.up * _velocity;
-        }
+        } 
     }
+
+    public bool StartGame()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            _rgb.simulated = true;
+            return true;
+        }
+
+        return false;
+    }
+
     private void OnCollisionEnter2D(Collision2D coll)
     {
         gameManager.GameOver();
