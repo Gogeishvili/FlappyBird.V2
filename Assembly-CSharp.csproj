@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\FLyBird.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\POLE.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
      <None Include="Assets\TS Sounds\Read Me.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Giorgi/Desktop/FlappyBird.V2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
