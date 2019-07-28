@@ -21,7 +21,6 @@ public class CreateRandomPole : MonoBehaviour
         if (answer == false && Input.GetMouseButtonDown(0))
         {
             answer = true;
-
         }
 
         if (answer)
@@ -37,7 +36,6 @@ public class CreateRandomPole : MonoBehaviour
 
     public GameObject NewPole()
     {
-
 
         GameObject newpole = Instantiate(Polle);
         newpole.transform.position = transform.position

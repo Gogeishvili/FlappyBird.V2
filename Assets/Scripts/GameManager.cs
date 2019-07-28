@@ -17,9 +17,4 @@ public class GameManager : MonoBehaviour
         GameOverObject.SetActive(true);
         Time.timeScale = 0;
     }
-
-    public void Replay()
-    {
-        SceneManager.LoadScene(0);
-    }
 }
