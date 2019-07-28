@@ -337,19 +337,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\Giorgi\Desktop\FlappyBird.V2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c310000
-    m_LastClickedID: 12604
+    m_SelectedIDs: 8c300000
+    m_LastClickedID: 12428
     m_ExpandedIDs: 00000000682f000060330000a8330000a6350000a835000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -499,9 +499,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 76fbffff
+      m_SelectedIDs: c2350000
+      m_LastClickedID: 13762
+      m_ExpandedIDs: 0ef9ffffc2350000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6971321, y: 0.04586474, z: -49.183594}
+    m_Target: {x: 2.24, y: -0.09215295, z: 1}
     speed: 2
     m_Value: {x: 0.6971321, y: 0.04586474, z: -49.183594}
   m_RenderMode: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.6238756
+    m_Target: 8.916225
     speed: 2
     m_Value: 5.6238756
   m_Ortho:

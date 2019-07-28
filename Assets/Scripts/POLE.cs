@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pole : MonoBehaviour
+public class POLE : MonoBehaviour
 {
     private bool isGameStarted = false;
 
