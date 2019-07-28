@@ -2,25 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class POLE : MonoBehaviour
+public class Pole : MonoBehaviour
 {
-    public bool answer = false;
-    void Start(){}
+    private bool isGameStarted = false;
+
+    void Start() { }
 
     void Update()
     {
-       
-        if (answer == false && Input.GetMouseButtonDown(0))
-        {
-            answer = true;
-            
-        }
 
-        if (answer)
-        {
+        if (isGameStarted == false && Input.GetMouseButtonDown(0))
+            isGameStarted = true;
+
+        if (isGameStarted)
             transform.position += Vector3.left * Time.deltaTime;
-        }
-    }
 
-   
+    }
 }

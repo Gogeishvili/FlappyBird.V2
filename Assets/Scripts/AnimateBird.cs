@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FLyBird : MonoBehaviour
+public class AnimateBird : MonoBehaviour
 {
     private Rigidbody2D _rgb;
     public GameManager gameManager;
 
     private float _velocity = 2;
-   
+
     void Start()
     {
         _rgb = GetComponent<Rigidbody2D>();
@@ -17,12 +17,10 @@ public class FLyBird : MonoBehaviour
 
     void Update()
     {
-        var answer = StartGame();
-
-        if (answer)
-        {
+        
+        if (StartGame())
             _rgb.velocity = Vector2.up * _velocity;
-        } 
+
     }
 
     public bool StartGame()

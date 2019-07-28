@@ -6,6 +6,6 @@ public class ScoreUpdate : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        Score._score++;
+        Score.score++;
     }
 }

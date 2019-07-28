@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CreateRandomPole : MonoBehaviour
 {
-    public GameObject Polle;
-
+    public GameObject Pole;
+    
     private float _sizePosition = 0.3f;
     private float _maxTime = 1;
     private float _timer = 0;
-    public bool answer = false;
+    private bool isClicked = false;
 
     void Start()
     {
@@ -18,12 +18,10 @@ public class CreateRandomPole : MonoBehaviour
 
     void Update()
     {
-        if (answer == false && Input.GetMouseButtonDown(0))
-        {
-            answer = true;
-        }
+        if (isClicked == false && Input.GetMouseButtonDown(0))
+            isClicked = true;
 
-        if (answer)
+        if (isClicked)
         {
             if (_timer > _maxTime)
             {
@@ -37,10 +35,10 @@ public class CreateRandomPole : MonoBehaviour
     public GameObject NewPole()
     {
 
-        GameObject newpole = Instantiate(Polle);
-        newpole.transform.position = transform.position
+        var newPole = Instantiate(Pole);
+        newPole.transform.position = transform.position
             + new Vector3(0, Random.Range(-_sizePosition, _sizePosition), 0);
-        return newpole;
+        return newPole;
 
     }
 }

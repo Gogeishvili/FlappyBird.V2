@@ -53,11 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimateBird.cs" />
      <Compile Include="Assets\Scripts\CreateRandomPole.cs" />
-     <Compile Include="Assets\Scripts\FLyBird.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\POLE.cs" />
-     <Compile Include="Assets\Scripts\Replay.cs" />
+     <Compile Include="Assets\Scripts\Pole.cs" />
+     <Compile Include="Assets\Scripts\ReplayGameScence.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
  <Reference Include="Unity.Timeline.Editor">

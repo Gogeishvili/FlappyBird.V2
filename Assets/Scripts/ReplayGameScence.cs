@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Replay : MonoBehaviour
+public class ReplayGameScence : MonoBehaviour
 {
     public void ReplayMethod()
     {

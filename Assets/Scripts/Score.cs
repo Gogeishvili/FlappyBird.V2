@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-     public static int _score=0;
+    public static int score=0;
     void Start()
     {
-        _score = 0;
+        score = 0;
     }
 
     void Update()
     {
-        GetComponent<UnityEngine.UI.Text>().text = _score.ToString();
+        GetComponent<UnityEngine.UI.Text>().text = score.ToString();
     }
 
 }
